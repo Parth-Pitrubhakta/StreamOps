@@ -22,7 +22,7 @@ root.render(
   <Provider store={store}>
     <React.StrictMode>
       <ThemeProvider theme={createTheme({ palette })}>
-        <RouterProvider
+        <RouterProvider       
           router={router}
           fallbackElement={<MainLoadingScreen />}
         />
